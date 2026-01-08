@@ -28,6 +28,8 @@ export class AuthController {
             await Promise.all([token.save(), user.save()])
             res.send('Usuario creado correctamente, confirma desde tu correo electrónico.')
         } catch (error) {
+            console.log(error);
+            
             res.status(500).send('Hubo un error')
         }
     }

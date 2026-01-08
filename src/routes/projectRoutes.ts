@@ -9,12 +9,11 @@ import { autenticate } from "../middleware/auth";
 import { TeamMemberController } from "../controllers/TeamController";
 import { NoteController } from "../controllers/NoteController";
 
-const router = Router()
+const router: Router = Router()
 
 router.use(autenticate)
 
 // PROJECT ROUTES
-
 
 router.post('/',
     body('projectName').notEmpty().withMessage('El nombre del proyecto es obligatorio'),

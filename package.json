@@ -17,22 +17,23 @@
     "bcryptjs": "^3.0.2",
     "colors": "^1.4.0",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "express-validator": "^7.2.1",
-    "mongoose": "^8.18.0",
-    "nodemailer": "^7.0.6"
+    "mongoose": "^8.19.1",
+    "nodemailer": "^7.0.9"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/morgan": "^1.9.10",
-    "@types/nodemailer": "^7.0.1",
+    "@types/nodemailer": "^7.0.2",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.1",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
-  }
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@10.18.2+sha512.9fb969fa749b3ade6035e0f109f0b8a60b5d08a1a87fdf72e337da90dcc93336e2280ca4e44f2358a649b83c17959e9993e777c2080879f3801e6f0d999ad3dd"
 }

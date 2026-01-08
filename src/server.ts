@@ -1,4 +1,4 @@
-import express from "express";
+import express, { Express } from "express";
 import { connectDB } from "./config/db";
 import dotenv from 'dotenv';
 import projectRouter from "./routes/projectRoutes";
@@ -11,7 +11,7 @@ dotenv.config()
 
 connectDB()
 
-const app = express()
+const app: Express = express()
 
 app.use(cors(corsOptions))
 

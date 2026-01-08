@@ -4,7 +4,7 @@ import { handdleInputErrors } from "../middleware/validator";
 import { body, param } from "express-validator";
 import { autenticate } from "../middleware/auth";
 
-const router = Router()
+const router: Router = Router()
 
 router.post('/create-account',
     body('name').notEmpty().withMessage('El nombre de usuario es obligatorio'),
