@@ -1,5 +1,5 @@
 import express, { Express } from "express";
-import { connectDB } from "./config/db";
+// import { connectDB } from "./config/db";
 // import dotenv from 'dotenv';
 import projectRouter from "./routes/projectRoutes";
 import authRouter from "./routes/authRoutes";
@@ -9,7 +9,7 @@ import morgan from "morgan";
 
 // dotenv.config()
 
-connectDB()
+// connectDB()
 
 const app: Express = express()
 
