@@ -38,6 +38,7 @@ export class TaskController {
         try {
             req.task.name = req.body.name
             req.task.description = req.body.description
+            req.task.responsable = req.body.responsable
             await req.task.save()
             res.send('Actualizado correctamente')
         } catch (error) {
