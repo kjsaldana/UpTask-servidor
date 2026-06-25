@@ -30,7 +30,7 @@ El backend de **UpTask** es una API Restful robusta construida con Node.js. Su a
 
 ---
 
-## Stack Tecnológico y Justificación Técnica
+## Stack Tecnológico
 
 | Tecnología | Implementación y Justificación en UpTask |
 | :--- | :--- |
